@@ -1,0 +1,27 @@
+{
+  "name": "silver-octo-fiesta",
+  "version": "1.0.0",
+  "description": "experimental expense tracker",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --watch --verbose",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "bcrypt": "^5.1.1",
+    "config": "^3.3.11",
+    "express": "^4.19.2",
+    "express-router": "^0.0.1",
+    "express-validator": "^7.1.0",
+    "mongoose": "^8.4.1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.3"
+  }
+}
