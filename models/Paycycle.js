@@ -1,11 +1,11 @@
 const mongoose = require('mongoose');
 
 const PaycycleSchema = new mongoose.Schema({
-  start_date: {
+  startDate: {
     type: Date,
     required: true
   },
-  end_date: {
+  endDate: {
     type: Date,
     required: true
   },
